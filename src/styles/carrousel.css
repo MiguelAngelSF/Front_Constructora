@@ -1,0 +1,18 @@
+.legend {
+    z-index: 1;
+}
+
+.c-carrousel {
+    width: 100vw;
+    margin: 5% 0% 0% 0%;
+    background: #e9e8e8;
+    display: flex;
+    justify-content: center;
+}
+
+.c-item-carrousel {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 4% 0% 5% 0%;
+}

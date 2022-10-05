@@ -1,0 +1,91 @@
+.container-card {
+    padding: 5%;
+}
+
+.card {
+    padding: 2%;    
+}
+
+.item {
+    height: 350px;
+    text-align: center;
+    /* border-radius: 15px; */
+    box-shadow: 10px 10px 5px 0px rgba(53,53,53,0.37);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(53,53,53,0.37);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(53,53,53,0.37);
+    border: solid #35353523 3px;
+}
+
+.item:hover {
+    transition: all 0.5s;
+    transform: translateY(-20px)
+}
+
+.img-card {
+    margin: 5% 0% 0% 0%;
+}
+
+.carrousel {
+    width: 40%;
+    height: 40%;
+}
+
+.btn-home {
+    background: black !important;
+    color: #F5F585 !important;
+    margin: 10% 0% 0% 0% !important;
+}
+
+.title-home {
+    margin: 4% 0% 0% 0% !important;
+    font-family: 'Poppins' !important;
+}
+
+.img-home {
+    width: 200px;
+    height: 300px;
+}
+
+.thumb, .thumb > img {
+    height: 70px !important;
+    width: 120px !important;
+    background-size: cover !important;
+}
+
+.thumbs {
+    overflow-x: auto;
+}
+
+.thumbs::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.thumbs::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.thumbs::-webkit-scrollbar-button:increment,.thumbs::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.thumbs::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.thumbs::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+
+.thumbs::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+.c-appointments {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 0% 5% 0%;
+}

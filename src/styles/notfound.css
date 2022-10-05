@@ -1,0 +1,20 @@
+.notFound {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30% 0% 0% 0%;
+    background-image: url('../../public/assets/notfound.gif');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.notFound > .MuiButtonBase-root {
+    width: 25%;
+    height: 15%;
+    margin: 10% 0% !important;
+    border-radius: 15px !important;
+    transition: all 0.5s;
+}

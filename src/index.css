@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+@import 'styles/login.css';
+@import 'styles/navbar.css';
+@import 'styles/home.css';
+@import 'styles/notfound.css';
+@import 'styles/carrousel.css';
+@import 'styles/footer.css';

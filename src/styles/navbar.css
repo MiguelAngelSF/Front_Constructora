@@ -1,0 +1,63 @@
+.navbar {
+    transition: all 0.5s;
+    background: black;
+    height: 65px;
+    position: sticky;
+    top: 0px;
+}
+
+.navbar-scroll {
+    transition: all 0.5s;
+    background: rgba(0, 0, 0, 0.291);
+    height: 65px;
+    color: black;
+    position: sticky;
+    top: 0px;
+}
+
+.nav-start {
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0% 3%;
+    color: white;
+    font-family: 'Poppins';
+}
+
+.nav-end {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0% 3%;
+    font-family: 'Poppins';
+}
+
+.header-home {
+    background-image: url('../../public/assets/background-home.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title {
+    font-family: 'Poppins';
+}
+
+.header-menu {
+    margin: 0% 3% !important;
+    text-decoration: none !important;
+    color: white !important;
+    cursor: pointer;
+    border: solid 0px transparent !important;
+    background: transparent !important;
+}
+
+.black {
+    color: black !important;
+}
