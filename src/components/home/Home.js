@@ -16,7 +16,7 @@ export default function Home() {
                         <div className="item">
                             <img className="home-card img-card" src="assets/casa1.jpg" width={300} height={170}/>
                             <Button className="btn-home">Ver información</Button>
-                        </div>
+                        </div> 
                     </Grid>
                     <Grid className="card" item xs={12} sm={6} md={4}>
                         <div className="item">
